@@ -2,7 +2,7 @@ package com.publisher.androidapp.utils;
 
 public class Constant {
 
-    static String SERVER_URL = "http://gowork.ldpfilehost.web.id/";
+    static String SERVER_URL = "https://gowork.dwirandyh.com/";
 
     public static String STR_ID = "str_id";
     public static String STR_HAK_AKSES = "str_hak_akses";
