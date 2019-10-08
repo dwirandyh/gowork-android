@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.publisher.androidapp">
+    package="com.dwirandyh.gowork">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".MyApp"
+        android:name="com.dwirandyh.gowork.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,10 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.dwirandyh.gowork.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.LoginActivity">
+        <activity android:name="com.dwirandyh.gowork.activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,18 +27,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.DetailBeritaActivity"
+            android:name="com.dwirandyh.gowork.activity.DetailBeritaActivity"
             android:label="@string/title_activity_detail_berita"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activity.DetailPelatihanActivity"
+            android:name="com.dwirandyh.gowork.activity.DetailPelatihanActivity"
             android:label="@string/title_activity_detail_berita"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.DetailLokerActivity" />
-        <activity android:name=".activity.JadwalPelatihanActivity" />
-        <activity android:name=".activity.RegistrasiActivity" />
-        <activity android:name=".activity.DetailForumActivity" />
-        <activity android:name=".activity.SemuaForumActivity"></activity>
+        <activity android:name="com.dwirandyh.gowork.activity.DetailLokerActivity" />
+        <activity android:name="com.dwirandyh.gowork.activity.JadwalPelatihanActivity" />
+        <activity android:name="com.dwirandyh.gowork.activity.RegistrasiActivity" />
+        <activity android:name="com.dwirandyh.gowork.activity.DetailForumActivity" />
+        <activity android:name="com.dwirandyh.gowork.activity.SemuaForumActivity"></activity>
     </application>
 
 </manifest>
