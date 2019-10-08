@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Informasi">
+        <menu>
+            <item
+                android:id="@+id/nav_berita"
+                android:icon="@drawable/berita"
+                android:title="Berita" />
+            <item
+                android:id="@+id/nav_pelatihan"
+                android:icon="@drawable/pelatihan"
+                android:title="Informasi Pelatihan" />
+            <item
+                android:id="@+id/nav_loker"
+                android:icon="@drawable/ic_job"
+                android:title="Lowongan Kerja" />
+            <item
+                android:id="@+id/nav_qa"
+                android:icon="@drawable/question_answer"
+                android:title="Q &amp; A" />
+        </menu>
+    </item>
+
+    <item android:title="Lainnya">
+        <menu>
+            <item
+                android:id="@+id/nav_jadwal"
+                android:icon="@drawable/ic_schedule"
+                android:title="Jadwal Pelatihan" />
+            <item
+                android:id="@+id/nav_pengaturan"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Pengaturan" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

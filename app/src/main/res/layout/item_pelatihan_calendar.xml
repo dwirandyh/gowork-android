@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/textview_tanggal_pelatihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="01"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_judul"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/secondaryText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview_tanggal_pelatihan"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"
+        android:text="Jumlah Peserta"
+        app:layout_constraintStart_toEndOf="@+id/textview_tanggal_pelatihan"
+        app:layout_constraintTop_toBottomOf="@+id/textview_judul" />
+
+    <TextView
+        android:id="@+id/textview_jumlah_terdaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="0"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textview_judul" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="dari"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textview_jumlah_terdaftar"
+        app:layout_constraintTop_toBottomOf="@+id/textview_judul" />
+
+    <TextView
+        android:id="@+id/textview_kuota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="0"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textview5"
+        app:layout_constraintTop_toBottomOf="@+id/textview_judul" />
+
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Lokasi"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textview_tanggal_pelatihan"
+        app:layout_constraintTop_toBottomOf="@+id/textview_kuota" />
+
+    <TextView
+        android:id="@+id/textview_lokasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="Lokasi"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview6"
+        app:layout_constraintTop_toBottomOf="@+id/textview_kuota" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

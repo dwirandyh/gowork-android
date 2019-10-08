@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorBox50"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edittext_noktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/textbox_bg"
+            android:hint="No. KTP"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondaryText" />
+
+        <EditText
+            android:id="@+id/edittext_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/textbox_bg"
+            android:hint="Nama"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondaryText" />
+
+
+        <EditText
+            android:id="@+id/edittext_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox_bg"
+            android:layout_marginBottom="8dp"
+            android:hint="Alamat"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondaryText" />
+
+
+        <EditText
+            android:id="@+id/edittext_bidang_keahlian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox_bg"
+            android:layout_marginBottom="8dp"
+            android:hint="Bidang Keahlian"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondaryText" />
+
+        <EditText
+            android:id="@+id/edittext_pendidikan_terakhir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox_bg"
+            android:hint="Pendidikan Terakhir"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondaryText" />
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox_bg"
+            android:layout_marginBottom="8dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondaryText" />
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox_bg"
+            android:layout_marginBottom="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondaryText" />
+
+        <Button
+            android:id="@+id/btn_registrasi"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorPrimary"
+            android:text="Daftar Sekarang" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="anda memiliki akun? " />
+
+            <TextView
+                android:id="@+id/textview_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login sekarang"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
